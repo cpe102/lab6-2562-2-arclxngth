@@ -2,7 +2,30 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+
+	int num ,sum;
+
+	num = x;
+
+	if(num>=65 && num<=90){
+
+		if(num == 65){
+
+		return 90;
+
+		}
+		else{
+
+		sum = num - 1;
+
+		return sum;
+		}
+	}
+	else{
+
+		return '0';
+	}
+
 }
 
 int main(){
